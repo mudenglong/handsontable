@@ -182,7 +182,7 @@ class ColumnSorting extends BasePlugin {
 
     if (allowSorting !== false) {
       this.sort();
-    }
+    }else return;
     this.updateOrderClass();
     this.updateSortIndicator();
 
